@@ -1,0 +1,71 @@
+
+
+.pagina-api {
+    font-size: 24px;
+
+    main {
+        padding: 20px;
+    }
+
+    .lista {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    button {
+        font-size: 28px;
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+    }
+
+    input {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    label {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    button { width: 200px;}
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+        width: 550px;
+
+
+        > div {
+            display: flex;
+            align-items: center;
+            width: 100%;
+
+            label {
+                width: 100%;
+                text-align: right;
+                margin-right: 10px;
+            }
+
+            
+        }
+
+        & div:last-child {
+            justify-content: end;
+        }
+    }
+
+
+    
+    
+    .updCapa {
+        font-size: 16px;
+        padding: 7px;
+    }
+}

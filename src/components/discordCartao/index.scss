@@ -1,0 +1,38 @@
+
+.comp-disc-cartao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    width: 580px;
+    background-color: #ebebeb;
+    color: #000;
+    padding: 40px 20px;
+    border-radius: 20px;
+
+    h1 {
+        text-align: center;
+        margin: 0px;
+    }
+
+}
+
+
+.comp-disc-claro {
+    background-color: #ebebeb;
+    color: #000;
+}
+
+
+.comp-disc-escuro {
+    background-color: #000;
+    color: #fff;
+}
+
+
+.comp-disc-colorido {
+    background-color: #d024d0;
+    color: #60ce29;
+}
